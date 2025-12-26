@@ -46,7 +46,7 @@ statistical_summary_autos = autos.describe(include='all')
 print(statistical_summary_autos)
 
 # Show info about the dataframe
-autos_info = autos.info()
-print(autos_info)
+autos.info()
+
 
 
